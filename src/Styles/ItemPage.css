@@ -1,0 +1,42 @@
+.ItemPage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 80%;
+  margin-bottom: 75px;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 20px;
+}
+
+#item-page-img {
+  height: 475px;
+  width: 475px;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.Item-page-info-text {
+  font-weight: 400;
+  border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width: 1263px) {
+  .ItemPage {
+    flex-direction: column;
+    height: 1000px;
+  }
+}

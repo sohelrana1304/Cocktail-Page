@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.List {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+  margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 1263px) {
+  .List {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 853px) {
+  .List {
+    grid-template-columns: auto;
+  }
+}
